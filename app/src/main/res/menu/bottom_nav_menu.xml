@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_tracker"
+        android:icon="@drawable/gps"
+        android:title="@string/title_tracker"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/navigation_log"
+        android:icon="@drawable/runer_silhouette_running_fast"
+        android:title="@string/title_log"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/navigation_pace"
+        android:icon="@drawable/running_calc"
+        android:title="@string/title_pace" />
+
+    <item
+        android:id="@+id/navigation_music"
+        android:icon="@drawable/music"
+        android:title="@string/title_music" />
+
+</menu>

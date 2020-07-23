@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_pace">
+
+    <fragment
+        android:id="@+id/navigation_pace"
+        android:name="au.edu.sydney.comp5216.running_diary.ui.pacecalculator.PaceCalculatorFragment"
+        android:label="@string/title_pace" />
+
+    <fragment
+        android:id="@+id/navigation_tracker"
+        android:name="au.edu.sydney.comp5216.running_diary.ui.gpstracker.GpsTrackerFragment"
+        android:label="@string/title_tracker"
+        tools:layout="@layout/fragment_gpstracker" />
+
+    <fragment
+        android:id="@+id/navigation_log"
+        android:name="au.edu.sydney.comp5216.running_diary.ui.runninglog.RunningLogFragment"
+        android:label="@string/title_log"
+        tools:layout="@layout/fragment_runninglog" />
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="au.edu.sydney.comp5216.running_diary.ui.music.MusicPlayerFragment"
+        android:label="@string/title_music"
+        tools:layout="@layout/fragment_music" />
+</navigation>
